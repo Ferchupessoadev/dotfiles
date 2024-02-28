@@ -14,5 +14,7 @@ cp ./i3/powermenu.sh ~/.config/i3/powermenu.sh
 
 echo "Instalando configuración de i3status..."
 cp -r ./i3status/config ~/.config/i3status/config
+cp ./neofetch/config.conf ~/.config/neofetch/config.conf
 
 echo "Instalación completada: recarga el gestor de ventanas i3 con Supr+Shift+r"
+
