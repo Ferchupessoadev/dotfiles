@@ -5,4 +5,4 @@ Dependencias:
 * i3
 * i3status
 
-[screenshot dotfiles](./screenshot.png)
+![screenshot dotfiles](./screenshot.png)
