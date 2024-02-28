@@ -1,0 +1,41 @@
+general {
+        output_format = "i3bar"
+        colors = true
+        markup = pango
+        interval = 5
+}
+
+order += "disk /"
+order += "disk /home"
+order += "wireless enx020a00546164"
+order += "memory"
+order += "tztime local"
+
+disk "/" {
+        format = "<span foreground='#FFFFFF' ="#000000"> Root: %free libre </span>"
+}
+
+disk "/home" {
+        format = "<span>  %free / %total</span>"
+}
+
+memory {
+    format = "<span foreground='#D8973C'> RAM: %percentage_used / %total </span>"
+}
+
+wireless enx020a00546164 {
+        format_up = "<span foreground='#2BAE32'>  : %ip </span>"
+        format_down = "<span> 󰖪  Disconnected </span>"
+}
+
+volume master {
+        format = "<span foreground='#BD632F'>  %volume </span>"
+        format_muted = "<span>  Muted </span>"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+tztime local {
+        format = "<span foreground='#EF243B'>   %d-%m-%y %H:%M:%S</span>"
+}
