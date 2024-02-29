@@ -17,4 +17,3 @@ cp -r ./i3status/config ~/.config/i3status/config
 cp ./neofetch/config.conf ~/.config/neofetch/config.conf
 
 echo "Instalación completada: recarga el gestor de ventanas i3 con Supr+Shift+r"
-
