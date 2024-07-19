@@ -4,6 +4,6 @@
 	branch = main
 
 [submodule "dwm/"]
-	path = dwm
+	path = dwm/
 	url = https://github.com/Ferchupessoadev/dwm
 	branch = main
