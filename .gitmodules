@@ -2,3 +2,8 @@
 	path = config/nvim
 	url = https://github.com/Ferchupessoadev/nvim
 	branch = main
+
+[submodule "dwm/"]
+	path = dwm
+	url = https://github.com/Ferchupessoadev/dwm
+	branch = main
