@@ -2,4 +2,4 @@
 
 Dwm - Dynamic Window Manager
 
-![Dwm](.screenshots/dwm.png)
+![Dwm](.screenshots/dwm.jpg)
