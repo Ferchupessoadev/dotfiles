@@ -5,3 +5,5 @@
 ![Dwm](.screenshots/dwm.jpg)
 
 ## Neovim
+
+![Neovim](.screenshots/neovim.png)
