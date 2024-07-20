@@ -6,3 +6,6 @@
 	path = dwm
 	url = https://github.com/Ferchupessoadev/dwm
 	branch = main
+[submodule "st"]
+	path = st
+	url = https://github.com/Ferchupessoadev/st
