@@ -2,7 +2,7 @@
 
 ## Dwm - Dynamic Window Manager
 
-![Dwm](.screenshots/dwm.jpg)
+![Dwm](.screenshots/dwm.png)
 
 ## Neovim
 
