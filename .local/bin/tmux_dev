@@ -1,0 +1,12 @@
+#!/bin/bash
+
+tmux has-session -t Code 2>/dev/null
+
+if [ $? != 0 ]; then
+    tmux new-session -d -s Code -n Nvim
+    tmux new-window -t Code:1 -n Server
+    tmux new-window -t Code:2 -n Git
+    tmux select-window -t Code:0
+fi
+
+tmux attach -t Code
